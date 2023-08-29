@@ -222,7 +222,7 @@ nav{
 
 #hourly_program>li:hover{
     background-color: #702f8a;
-    background-image: linear-gradient(#8af74a, #702f8a);
+    background-image: linear-gradient(to right, #702f8a,#8af74a);
     color: #f4f4f4;
     border-radius: 50px;
     font-size: large;
@@ -252,8 +252,21 @@ nav{
     margin:50px;
 }
 
+#day1_program h3{
+    font-size: 50px;
+}
 #registration{
     text-align: center;
+}
+
+#clock{
+    margin: 60px;
+    font-size: 80px;
+}
+
+#registrationLinkContainer{
+    margin: 30px;
+    padding: 30px;
 }
 
 #registrationLink{
@@ -304,6 +317,7 @@ nav{
 
 #auiDescription>img{
     width: 300px;
+    margin: 50px;
 }
 
 #auiDescription>p{
@@ -320,6 +334,7 @@ nav{
 
 #auiLocation>img{
     border-radius: 20px;
+    margin-right: 70px;
 }
 #auiLocation>a{
     text-decoration: none;
