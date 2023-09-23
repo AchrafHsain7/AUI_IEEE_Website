@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function mobileResponsive(matches) {
     var themePicture1 = document.getElementById('themePicture1');
     var day1 = document.getElementById('day1');
@@ -14,11 +13,6 @@ function mobileResponsive(matches) {
 document.addEventListener('DOMContentLoaded', function(){
 
     const eventDate = new Date('November 16, 2023 00:00:00').getTime();
-=======
-document.addEventListener('DOMContentLoaded', function(){
-
-    const eventDate = new Date('November 15, 2023 00:00:00').getTime();
->>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 
     let x = setInterval(() =>{
 
@@ -37,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function(){
         }
 
     } ,1000)
-<<<<<<< HEAD
 
     /*
     var width = window.matchMedia("(max-width: 768px)");
@@ -106,7 +99,4 @@ document.addEventListener('DOMContentLoaded', function(){
         repeater();
     }
     repeat();
-=======
-        
->>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 })
