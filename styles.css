@@ -10,9 +10,13 @@ body {
     background-color: #f4f4f4;
     color: #333;
     margin: 10px;
+<<<<<<< HEAD
     padding: 10px;
     text-align: center;
     background-image: linear-gradient(249, 231, 235, rgb(249, 231, 235));  
+=======
+    text-align: center;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 
 /* Style the header */
@@ -32,7 +36,35 @@ h2{
     font-size: 50px;
 }
 
+<<<<<<< HEAD
 
+=======
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 0px;
+}
+
+nav>ul>li>a{
+    padding: 20px;
+}
+
+nav>ul>li>a:hover{
+    background-color: #f4f4f4;
+    color: #702f8a;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 
 /* Style sections */
 section {
@@ -54,9 +86,31 @@ section {
     border-width: 0px;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+/* Style footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #702f8a;
+    color: white;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 
 li {
     margin: 20px;
@@ -76,6 +130,7 @@ li {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+<<<<<<< HEAD
     margin: 0px;
     height: 200px;
 }
@@ -157,6 +212,29 @@ nav a {
     color: white;
 }
 
+=======
+    margin: 10px;
+}
+
+#WIE_logo{
+    width: 20%;
+    margin-right: 200px;
+}
+
+#WIELS_logo{
+    width: 40%;
+    margin: 10px;
+    justify-self: end;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 
 
 form>input{
@@ -167,32 +245,72 @@ form>input{
 }
 
 #teamMembers>li>img{
+<<<<<<< HEAD
     border-radius: 50%;
+=======
+    border-radius: 50px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 
 
 
+<<<<<<< HEAD
 
+=======
+nav{
+    background-color: #702f8a;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+}
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 
 #WIE_logo{
     margin-right: 40px;
 }
 
+<<<<<<< HEAD
 
 #externalLinks>a{
     
     text-decoration: none;
     background-color: #f4f4f4;
     padding-inline: 30px;
+=======
+#intro{
+    background-image: linear-gradient(to right,#702f8a, #8af74a);
+    color: #f4f4f4;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+#intro>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#intro>a{
+    
+    text-decoration: none;
+    background-color: #f4f4f4;
+    padding-inline: 20px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     align-self: center;
     color: #333;
     border-radius: 10px;
     margin-top: 50px;
     font-size: medium;
+<<<<<<< HEAD
     margin: 0px;
 }
 
 #externalLinks>a:hover{
+=======
+}
+
+#intro>a:hover{
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     color: #702f8a;
     font-size: large;
 }
@@ -205,6 +323,7 @@ form>input{
     font-size: large;
     margin: 10px;
     color: #333;
+<<<<<<< HEAD
     margin-bottom: 40px;
 }
 
@@ -215,11 +334,18 @@ form>input{
 }
 
 .hourly_program>li{
+=======
+    margin-bottom: 20px;
+}
+
+#hourly_program>li{
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
    display: flex;
    align-items: center;
    justify-content: left;
    border-width: 3px;
    border-color: #333;
+<<<<<<< HEAD
    margin: 0px;
    padding: 0px;
    margin-left: 20px;
@@ -239,11 +365,33 @@ form>input{
     color: #f4f4f4;
     border-radius: 8px;
     font-size: medium;
+=======
+   margin: 2px;
+   padding: 0px;
+   font-size: large;
+   transition: background-color 0.3s, color 0.3s;
+   width: 80%; 
+
+
+}
+
+#hourly_program>li:hover #hourly_program>li>h5{
+    background-color: #f4f4f4;
+} 
+
+#hourly_program>li:hover{
+    background-color: #702f8a;
+    background-image: linear-gradient(to right, #702f8a,#8af74a);
+    color: #f4f4f4;
+    border-radius: 50px;
+    font-size: large;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     transition: background-color 0.3s, color 0.3s; 
 }
 
 @keyframes borderRadiusTransition {
     from {
+<<<<<<< HEAD
         border-radius: 1px; /* Start with 10px */
     }
     to {
@@ -252,11 +400,22 @@ form>input{
 }
 
 .hourly_program > li:hover {
+=======
+        border-radius: 10px; /* Start with 10px */
+    }
+    to {
+        border-radius: 50px; /* End with 30px */
+    }
+}
+
+#hourly_program > li:hover {
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     animation: borderRadiusTransition 0.5s ease; /* Adjust the duration and easing as needed */
 }
 
 
 
+<<<<<<< HEAD
 .hourly_program>li>h5{
     margin-right: 20px;
     background-color: #702f8a;
@@ -337,12 +496,30 @@ form>input{
 }
 
 .day_program>div>img{
+=======
+#hourly_program>li>h5{
+    margin-right: 50px;
+    background-color: #702f8a;
+    color: #f4f4f4;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#day1_program{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#day1_program>div>img{
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     width: 90%;
     height: auto;
     border-radius: 10px;
     margin:30px;
 }
 
+<<<<<<< HEAD
 #programContainer h3{
     font-size: 50px;
     border: 1px #702f8a solid;
@@ -350,12 +527,17 @@ form>input{
     margin: 1px;
     background-color: #702f8a;
     color: #f4f4f4;
+=======
+#day1_program h3{
+    font-size: 50px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 #registration{
     text-align: center;
 }
 
 #clock{
+<<<<<<< HEAD
     margin: 30px;
     font-size: 40px;
 }
@@ -385,6 +567,28 @@ form>input{
     width: 100%;
     height: 100%;
     display: block;
+=======
+    margin: 60px;
+    font-size: 80px;
+}
+
+#registrationLinkContainer{
+    margin: 30px;
+    padding: 30px;
+}
+
+#registrationLink{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #702f8a;
+    color: #f4f4f4;
+    border-radius: 40px;
+    padding-inline: 50px;
+}
+
+#registrationLink:hover{
+    background-image: linear-gradient(to right, #702f8a,#8af74a);
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 
 #registration>p{
@@ -395,7 +599,11 @@ form>input{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+    margin-bottom: 100px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 
 #table_centered>table{
@@ -404,11 +612,19 @@ form>input{
 #table_centered th{
     color: #f4f4f4;
     background-color: #702f8a;
+<<<<<<< HEAD
     padding: 20px;
     font-size: large;
 }
 #table_centered td{
     padding: 10px;
+=======
+    padding: 30px;
+    font-size: large;
+}
+#table_centered td{
+    padding: 20px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     border: 1px black solid;
     margin: 0px;
 }
@@ -417,11 +633,15 @@ form>input{
     text-align: left;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin-bottom: 30px;
 }
 
 #aui h2{
     margin: 0px;
+=======
+    margin-bottom: 70px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 
 #auiDescription>img{
@@ -438,6 +658,7 @@ form>input{
 
 #auiLocation{
     text-align: center;
+<<<<<<< HEAD
     margin: 0px;
 }
 
@@ -445,6 +666,14 @@ form>input{
     border-radius: 15px;
     margin-right: 10px;
     height: 350px;
+=======
+    margin: 20px;
+}
+
+#auiLocation>img{
+    border-radius: 20px;
+    margin-right: 70px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 #auiLocation>a{
     text-decoration: none;
@@ -452,6 +681,7 @@ form>input{
 }
 
 
+<<<<<<< HEAD
 .teamRow{
     display: flex;
     justify-content: center;
@@ -471,6 +701,26 @@ form>input{
     border-radius: 50%;
     height: 150px;
     object-fit: cover;
+=======
+#teamMembers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#teamMembers tr{
+    margin: 20px;
+}
+
+#teamMembers td{
+    padding: 50px;
+    margin: 50px;
+}
+
+#teamMembers img{
+    width: 200px;
+    border-radius: 100px;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
 
 #teamMembers a{
@@ -478,12 +728,15 @@ form>input{
     color: #702f8a;
 }
 
+<<<<<<< HEAD
 #teamMembers>div>div>a:hover img{
     transform: scale(1.2);
     border-radius: 20%;
     filter: brightness(80%);
 }
 
+=======
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 #contactContainer{
     display: block;
     align-items: center;
@@ -496,24 +749,40 @@ form>input{
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .speakersList img{
     width: 200px;
     border-radius: 75px;
 }
 
 .speakersList{
+=======
+#speakersList img{
+    width: 150px;
+    border-radius: 75px;
+}
+
+#speakersList{
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+<<<<<<< HEAD
 
+=======
+body{
+    background-image: linear-gradient(white, rgb(249, 231, 235));  
+}
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 
 .large_text{
     font-size: 50px;
 }
 
 section:hover{
+<<<<<<< HEAD
     font-weight: 500;
     box-shadow: 10px 10px 5px gainsboro;
     border-width: 1px;
@@ -958,4 +1227,8 @@ footer {
     }
 
    
+=======
+    font-weight: 600;
+    box-shadow: 10px 10px 5px gainsboro;
+>>>>>>> 5ecb98b64ca5771e2b816b008953d747d1eb6b38
 }
