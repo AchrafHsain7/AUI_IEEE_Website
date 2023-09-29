@@ -379,6 +379,16 @@ form>input{
     background-color: #8af74a;
 }
 
+
+.disabled_button{
+    background-color: #333;
+}
+
+.disabled_button:hover{
+    background-color: #333;
+}
+
+
 .registrationLink a{
     color: #f4f4f4;
     text-decoration: none;
@@ -633,7 +643,7 @@ footer {
     align-items: center;
     flex-direction: row;
     padding: 0px;
-    margin: 0px;
+    margin: 2px;
 }
 
 .sponsorsList img{
