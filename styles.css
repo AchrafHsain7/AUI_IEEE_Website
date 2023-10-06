@@ -980,3 +980,83 @@ footer {
 
    
 }
+
+
+@media screen and (max-width: 920px) and (min-width: 721px){
+
+    #WIE_logo{
+        width: 100%;
+    }
+
+    #intro{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #WIELS_logo{
+        height: 50%;
+    }
+
+    #navbar{
+        width: 100%;
+    }
+
+    #navbar ul{
+        padding: 20px;
+        padding-inline: 0px;
+        width: 100%;
+    }
+
+    #navbar li{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #navbar a{
+        font-size: small;
+    }
+
+    
+
+    .speakersList img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .speakerContainer{
+        margin: 5px;
+    }
+
+    .speakerContainer:hover img{
+        transform: scale(1.2);
+        border-radius: 25px;
+        filter: brightness(80%);
+    }
+
+    .sponsorsList{
+        width: 100%;
+    }
+
+    .sponsorsList img{
+        width: 120px;
+        margin: 10px;
+    }
+
+    .teamRow>div{
+        width: 20vw;
+    } 
+
+    #teamMembers img:not(#linkedInLinkLogo){
+        width: 100px;
+        height: 100px;
+    }
+
+    #teamMembers h4{
+        font-size: small;
+    }
+    #teamMembers h6{
+        font-size: 8px;
+    }
+
+}
