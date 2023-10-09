@@ -27,23 +27,11 @@ document.addEventListener('DOMContentLoaded', function(){
         document.getElementById('clock').innerHTML = `${days}: ${hours}: ${minutes}: ${seconds}`
 
         if(timeLeft<0){
-            document.getElementById('clock').innerHTML = "Registration Closed"
+            document.getElementById('clock').innerHTML = "Summit Already Started!"
         }
 
     } ,1000)
-
-    /*
-    var width = window.matchMedia("(max-width: 768px)");
-
-    function handleWidthChange(event) {
-        mobileResponsive(event.matches);
-    }
-    
-    width.addEventListener("change", handleWidthChange);
-    
-    // Call it initially as well
-    handleWidthChange(width);
-     */   
+  
 
     //slideshow 
     let slides = document.querySelectorAll('.slide');
