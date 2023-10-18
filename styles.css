@@ -647,6 +647,7 @@ footer {
     margin: 2px;
 }
 
+
 .sponsorsList img{
     width: 170px;
     margin: 30px;
@@ -1014,9 +1015,13 @@ footer {
     }
 
     #navbar a{
-        font-size: small;
+        font-size: 10px;
     }
 
+
+    .registrationLink{
+        padding-inline: 20px;
+    }
     
 
     .speakersList img{

@@ -13,6 +13,9 @@ function mobileResponsive(matches) {
 document.addEventListener('DOMContentLoaded', function(){
 
     const eventDate = new Date('November 16, 2023 00:00:00').getTime();
+    const openResearchRegistration = new Date('October 15, 2023 00:00:00').getTime();
+    const closeResearchRegistration = new Date('October 24, 2023 00:00:00').getTime();
+    const closeHackathon = new Date('October 23, 2023 00:00:00').getTime();
 
     let x = setInterval(() =>{
 
@@ -28,6 +31,18 @@ document.addEventListener('DOMContentLoaded', function(){
 
         if(timeLeft<0){
             document.getElementById('clock').innerHTML = "Summit Already Started!"
+        }
+
+        let timeLeft2 = openResearchRegistration - now;
+        let timeLeft3 = closeResearchRegistration - now;
+        let timeLeft4 = closeHackathon - now;
+        women_research = document.getElementById('women_research_registration');
+        hackathon_registration = document.getElementById('hackathon_registration');
+        if(timeLeft2<0 && timeLeft3>0){
+            women_research.classList.remove('disabled_button');
+        }
+        if(timeLeft4>0){
+            hackathon_registration.classList.remove('disabled_button');
         }
 
     } ,1000)
