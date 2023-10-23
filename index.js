@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const eventDate = new Date('November 16, 2023 00:00:00').getTime();
     const openResearchRegistration = new Date('October 15, 2023 00:00:00').getTime();
     const closeResearchRegistration = new Date('October 24, 2023 00:00:00').getTime();
-    const closeHackathon = new Date('October 23, 2023 00:00:00').getTime();
+    const closeHackathon = new Date('October 28, 2023 00:00:00').getTime();
 
     let x = setInterval(() =>{
 
