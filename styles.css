@@ -462,6 +462,23 @@ form>input{
     color: #702f8a;
 }
 
+#accomodation_container{
+    margin: 50px;
+}
+
+#accomodation_file{
+    text-decoration: none;
+    font-size: large;
+    padding: 20px;
+    color: #f4f4f4;
+    background-color: #702f8a;
+    border-radius: 7px;
+}
+
+#accomodation_file:hover{
+    background-color: #8af74a;
+}
+
 
 .teamRow{
     display: flex;
@@ -734,6 +751,12 @@ footer {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
+#hackathon_judges{
+    background-color: #702f8a;
+    color: #f4f4f4;
+    border-radius: 3px;
+}
+
 
 
 
@@ -980,6 +1003,17 @@ footer {
         height: 100%;
     }
 
+    #accomodation_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #accomodation_file{
+        font-size: small;
+        width: 100%;
+    }
+
    
 }
 
@@ -1051,6 +1085,9 @@ footer {
 
     .teamRow>div{
         width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     } 
 
     #teamMembers img:not(#linkedInLinkLogo){
