@@ -297,7 +297,7 @@ form>input{
     }
 }
 
-#hackathon{
+.subprogram{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -305,7 +305,7 @@ form>input{
     flex-direction: column;
 }
 
-#hackathon div{
+.subprogram div{
     margin: 20px;
 }
 
@@ -313,7 +313,7 @@ form>input{
     font-size: 30px;
 }
 
-#hackathon:hover{
+.subprogram:hover{
     background-image: linear-gradient(to right, #702f8a,#8af74a);
     color: #f4f4f4;
     animation: borderRadiushackathon 0.5s ease;
@@ -492,6 +492,11 @@ form>input{
     margin: 20px;
     margin-right: 50px;
 }
+
+.teamRow h6{
+    width: 200px;
+}
+
 
 
 #teamMembers img:not(#linkedInLinkLogo){
@@ -751,10 +756,32 @@ footer {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-#hackathon_judges{
+.subprogram_title{
     background-color: #702f8a;
     color: #f4f4f4;
     border-radius: 3px;
+}
+
+#link_to_speakers{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #702f8a;
+    align-self: center;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#link_to_speakers:hover{
+    background-color: #8af74a;
+}
+
+#link_to_speakers a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 30px;
 }
 
 
@@ -780,6 +807,10 @@ footer {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 721px) {
+
+    #link_to_speakers{
+        margin-bottom: 50px;
+    }
 
     #banner{
         height: auto;
@@ -808,10 +839,6 @@ footer {
 
     #WIE_morocco div{
         font-size: small;
-    }
-
-    #programContainer{
-        display: block;
     }
 
     .day_program{
